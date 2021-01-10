@@ -1,0 +1,1 @@
+docker run -v /root/openvpn:/etc/openvpn -d -p 1194:1194/tcp --cap-add=NET_ADMIN --name myvpn --restart=always kylemanna/openvpn
